@@ -29,7 +29,7 @@ if st.button("🔥 GENERATE DOKUMEN EKSEKUSI", use_container_width=True):
     else:
         # Nyalain mesin Gemini
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-pro')
         
         # PROMPT PREDATOR (Ini yang bikin klien lu gemeteran ngeluarin duit)
         prompt_system = f"""
